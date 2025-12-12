@@ -1,0 +1,26 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Arial', sans-serif;
+        }
+
+        .clock {
+            background: #000;
+            color: #0f0;
+            font-size: 80px;
+            padding: 40px 60px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+            font-family: 'Courier New', monospace;
+        }
